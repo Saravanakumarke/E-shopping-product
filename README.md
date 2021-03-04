@@ -10,7 +10,7 @@ Simple System task - Product shopping
 
 ## Steps to clone and run the application
 
-* git clone 
+* git clone https://github.com/Saravanakumarke/E-shopping-product
 
 * npm install 
 
