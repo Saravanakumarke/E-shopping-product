@@ -30,7 +30,7 @@ Laptop page - [http://localhost:3000/laptop](http://localhost:3000/laptop)
 
 Bags page - [http://localhost:3000/bags](http://localhost:3000/bags)
 
- You can check it [here](https://made-up.netlify.app/).
+ You can check it [here](https://products-shopping.netlify.app).
 
 
 ## Contact 
