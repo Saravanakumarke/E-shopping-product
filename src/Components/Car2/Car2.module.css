@@ -1,0 +1,218 @@
+@import '../theme/theme.css';
+.container
+{
+    margin-left: 8cm;
+   margin-top: -21.5cm;
+}
+.showitem
+{
+    font-family: var(--font-scada);
+    font-size: 12px;
+    color: gray;
+    font-weight: 100;
+}
+.dropdownbox
+{
+    margin-left: 22cm;
+    margin-top: -1.5cm;
+    
+}
+.items
+{
+    height: 1.2cm;
+border-radius: 5px;
+    width: 4.4cm;
+    outline: none;
+    padding: 10px;
+   background-color: rgb(250, 244, 244);
+   font-family: var(--font-scada);
+   color: #000;
+   font-size: 15px;
+   font-weight: 500;
+}
+.listone
+{
+    margin-top: 20px;
+}
+.firstcard
+{
+    width: 8cm;
+    height: 7cm;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+.secondcard
+{
+    width: 8cm;
+    height: 7cm;
+    margin-top: -7cm;
+    margin-left: 9.25cm;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+.thiredcard
+{
+    width: 8cm;
+    height: 7cm;
+    margin-top: -7cm;
+    margin-left: 18.5cm;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+.firstimg
+{
+    width: 8cm;
+    height: 4.5cm;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+.imgname
+{
+    font-size: 20px;
+    font-family: var(--font-scada);
+    margin-top: 15px;
+    text-align: center;
+    color: rgb(12, 12, 73);
+    font-weight: 600;
+}
+.link
+{
+    text-decoration: none;
+}
+.sale
+{
+    width: 2cm;
+    height: 1cm;    
+    position: absolute;
+    color: #fff;
+    font-family: var(--font-scada);
+    background-color: red;
+    border-radius: 05px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.rate
+{
+    text-decoration: line-through;
+    margin-left: 2cm;
+    margin-top: -0.2cm;
+    font-weight: -300;
+    color: rgb(12, 12, 73);
+    font-family: var(--font-scada);
+}
+.offer
+{
+    margin-top: -0.9cm;
+    margin-left: 4cm;
+    font-weight: 600;
+    color: rgb(12, 12, 73);
+    font-family: var(--font-scada);
+}
+.saletext
+{
+    margin-top: 10px;
+}
+.offer1
+{
+    text-align: center;
+    margin-top: -5px;
+    font-family: var(--font-scada);
+}
+.listtwo
+{
+    margin-top: 1cm;
+}
+.listthree
+{
+    margin-top: 1cm;
+}
+.footer
+{
+    margin-top: 1cm;
+    margin-bottom: 2cm;
+    text-decoration: none;
+    margin-left: 6cm;
+}
+.pageno
+{
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.pagename
+{
+    text-align: center;
+    width: 1cm;
+    height: 1cm;
+    float: left;
+    border: 1px solid gray;
+    border-radius: 9px;
+    margin-left: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.active
+{
+    background-color: rgb(224, 10, 10);
+    color: #fff;
+
+}
+.no
+{
+    font-family: var(--font-scada);
+    margin-top: 10px;
+}
+
+/* tablet & mobile screens */
+@media only screen and (max-width: 768px) {
+    .topshow
+{
+   margin-left: -6cm;
+  
+   
+}
+.showitem
+{
+visibility: hidden;
+}
+.dropdownbox
+{
+    margin-left: 5.4cm;
+    margin-top: -4cm;
+    
+}
+.firstcard
+{
+    margin-left: -2cm;
+    margin-top: -2.5cm;
+    width: 6cm;
+}
+.firstimg
+{
+    width: 6cm;
+   
+}
+.listtwo
+{
+    margin-top: 3cm;
+}
+.listthree
+{
+    margin-top: 3cm;
+}
+.secondcard
+{
+    visibility: hidden;
+}
+.thiredcard
+{
+    visibility: hidden;
+}
+.footer
+{
+   
+    margin-left: -7cm;
+}
+
+}

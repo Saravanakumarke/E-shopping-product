@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Scada&display=swap');
+
+:root {
+  /* colors */
+ 
+
+  /* fonts */
+  --font-scada: 'Scada', sans-serif;
+  --font-jost: 'Jost', sans-serif;
+  --font-bankgothic: BankGothic;
+  --font-mediumBold: 500;
+  --font-normal: 400;
+}
